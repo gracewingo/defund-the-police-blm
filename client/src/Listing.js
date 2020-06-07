@@ -10,7 +10,11 @@ const Listing = (listing) => {
           <div className="state">
             <h2>{state.state}</h2>
             {state.links.map((link) => (
-              <li className="list-item"><a href={link.link} target="_blank">{link.title}</a></li>
+              <li className="list-item">
+                <a href={link.link} target="_blank">
+                  {link.title}
+                </a>
+              </li>
             ))}
           </div>
         </ul>

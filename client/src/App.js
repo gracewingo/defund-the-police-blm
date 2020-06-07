@@ -47,10 +47,10 @@ const App = () => {
   return (
     <div className="App">
       <Header className="header" />
+      <Why />
       <div className="Listings">
         {loading ? "...Loading" : <Listing listings={states} />}
       </div>
-      <Why />
       <div className="Actions">
         <p>
           In many municipalities, the fiscal year ends on <strong>June 30</strong>. Next year’s
