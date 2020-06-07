@@ -53,22 +53,3 @@ body {
 
 /* Mobile */
 
-@media(min-width: 768px) {
-  .App {
-    text-align: center;
-    padding: 30px;
-  }
-
-  li {
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-    margin-bottom: 20px;
-    padding: 10px;
-    max-width: 230px;
-  }
-
-  .state {
-    font-size: 1.75rem;
-  }
-}
