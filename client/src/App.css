@@ -25,9 +25,15 @@ body {
   }
   .Why {
     margin: 0px;
+    width: 25em;
   }
 
   .listing {
+    margin: 0px;
+    
+  }
+
+  .listing .state {
     margin: 0px;
   }
 }
