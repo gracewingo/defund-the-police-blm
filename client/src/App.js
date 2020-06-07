@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Footer from './Footer';
 import Listing from "./Listing";
+import Why from './Why';
 import "./App.css";
 import { useFetch } from "./useFetchHook";
 
@@ -49,6 +50,7 @@ const App = () => {
       <div className="Listings">
         {loading ? "...Loading" : <Listing listings={states} />}
       </div>
+      <Why />
       <div className="Actions">
         <p>
           In many municipalities, the fiscal year ends on <strong>June 30</strong>. Next year’s
@@ -57,7 +59,7 @@ const App = () => {
         <h3>Here's how you can take action now to reallocate these funds:</h3>
         <ul>
           <li>
-            Call and email your city council members and mayor:{" "}
+            Call and email your city council members and mayor directly:{" "}
             <a href="https://defund12.org/">Defund12.org</a>
           </li>
           <li>
