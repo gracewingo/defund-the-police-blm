@@ -36,9 +36,8 @@ body {
 
 .listing {
   margin: 0 10em;
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
+
 
 .state-list {
   margin: 1em;
@@ -92,16 +91,18 @@ body {
     text-align: center;
   }
   
-  li {
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-    margin-bottom: 20px;
-    padding: 10px;
-    max-width: 230px;
-  }
-
   .big {
     font-size: 1.75rem;
+  }
+
+  .Actions {
+    margin-left: 0em;
+  }
+}
+
+@media(min-width: 728px){
+  .Listings {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }
