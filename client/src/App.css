@@ -1,0 +1,38 @@
+.header {
+  margin: 3em 30em;
+  text-align: center;
+}
+
+.listing {
+  margin: 0 10em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.state-list {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.listing .state {
+  margin-top: 2em;
+}
+
+.listing h2 {
+ margin-bottom: 1em;
+}
+
+/* Actions */
+
+.Actions {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 10em;
+}
+/* Footer */
+
+.footer {
+  text-align: center;
+  margin-bottom: 3em;
+}
