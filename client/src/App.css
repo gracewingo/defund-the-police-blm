@@ -14,6 +14,11 @@ body {
   width: auto;
 }
 
+.Why {
+  margin: 3em 30em;
+  width: auto;
+}
+
 @media screen and (max-width: 440px) {
   .Header {
       margin: 0px;
@@ -66,10 +71,6 @@ body {
   margin-bottom: 3em;
 }
 
-.Why {
-  margin: 3em 30em;
-  width: auto;
-}
 
 @media screen and (max-width: 760px) {
   .Listings {
