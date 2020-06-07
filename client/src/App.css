@@ -102,7 +102,7 @@ body {
 }
 
 @media(min-width: 728px){
-  .listings {
+  .listing {
     display: grid;
     grid-template-columns: auto auto auto;
   }
