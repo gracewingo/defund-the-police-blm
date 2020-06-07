@@ -8,17 +8,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header {
+.Header {
   margin: 3em 30em;
   text-align: center;
   width: auto;
 }
 
 @media screen and (max-width: 760px) {
-  .header {
+  .Header {
       margin: 0px;
   }
   .Why {
+    margin: 0px;
+  }
+
+  .listing {
     margin: 0px;
   }
 }
@@ -80,17 +84,7 @@ body {
     text-align: center;
     padding: 30px;
   }
-
-  .Header {
-    text-align: center;
-    width: auto;
-  }
   
-  .Why {
-    margin-top: 50px;
-    font-size: 1.5rem;
-  };
-
   li {
     display: inline-block;
     width: 33%;

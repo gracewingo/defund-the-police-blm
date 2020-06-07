@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header className="Header" />
+      <Header />
       <Why />
       <div className="Listings">
         {loading ? "...Loading" : <Listing listings={states} />}
