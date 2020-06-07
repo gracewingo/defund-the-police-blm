@@ -9,14 +9,14 @@ body {
 }
 
 .Header {
-  margin: 3em 20em;
+  margin: 2em 20em;
   text-align: center;
   width: auto;
   font-size: 20px;
 }
 
 .Why {
-  margin: 3em 30em;
+  margin: 2em 20em;
   width: auto;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 @media(min-width: 728px){
-  .Listings {
+  .listings {
     display: grid;
     grid-template-columns: auto auto auto;
   }
