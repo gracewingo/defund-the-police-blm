@@ -14,11 +14,10 @@ const Footer = (data) => {
       <div>Actively updating with resources related to the #DefundThePolice movement</div>
       <div>made with ❤️ by @gracewingo </div>
       <div>
-        Want to contribute to the spreadsheet? Please go{" "}
+        Want to contribute to the spreadsheet? Click {" "}
         <a href="https://docs.google.com/spreadsheets/d/1Tu1fcZhsLl3ZasokqoOwJ8drjHeZh35eBF237DYZGdc/edit#gid=0">
           here
         </a>{" "}
-        and add comments!
       </div>
       <div class="creditors">
         Huge Thank you to{" "}
