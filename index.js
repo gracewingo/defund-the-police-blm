@@ -9,7 +9,6 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.use("/testAPI", testAPIRouter);
 
-// Put all API endpoints under '/api'
 app.get('/api', (req, res) => {
     res.send(getJSON);
 });

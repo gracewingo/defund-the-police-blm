@@ -67,7 +67,8 @@ body {
 }
 
 .Why {
-  margin: 0 13em;
+  margin: 3em 30em;
+  width: auto;
 }
 
 @media screen and (max-width: 760px) {
@@ -82,7 +83,6 @@ body {
 @media(max-width: 440px) {
   .App {
     text-align: center;
-    padding: 30px;
   }
   
   li {
