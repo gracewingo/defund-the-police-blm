@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="Header">
       #DefundThePolice
       <p>
         A list of city budget information and action steps to reallocate
