@@ -14,7 +14,7 @@ body {
   width: auto;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 440px) {
   .Header {
       margin: 0px;
   }
