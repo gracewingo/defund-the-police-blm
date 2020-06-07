@@ -10,7 +10,7 @@ const Footer = (data) => {
   }
 
   return (
-    <div className="footer">
+    <div className="Footer">
       <div>Actively updating with resources related to the #DefundThePolice movement</div>
       <div>made with ❤️ by @gracewingo </div>
       <div>

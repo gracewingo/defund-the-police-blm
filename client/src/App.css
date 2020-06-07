@@ -13,6 +13,10 @@ body {
   text-align: center;
   width: auto;
 }
+.p {
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
 
 .listing {
   margin: 0 10em;
@@ -43,7 +47,7 @@ body {
 }
 /* Footer */
 
-.footer {
+.Footer {
   text-align: center;
   margin-bottom: 3em;
 }
@@ -52,5 +56,41 @@ body {
   margin: 0 13em;
 }
 
+@media screen and (max-width: 760px) {
+  .Listings {
+      width:auto;
+      margin: 0px 30px;
+  }
+}
+
 /* Mobile */
 
+@media(max-width: 440px) {
+  .App {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .Header {
+    text-align: center;
+    width: auto;
+  }
+  
+  .Why {
+    margin-top: 50px;
+    font-size: 1.5rem;
+  };
+
+  li {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 230px;
+  }
+
+  .big {
+    font-size: 1.75rem;
+  }
+}
