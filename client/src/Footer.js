@@ -11,7 +11,7 @@ const Footer = (data) => {
 
   return (
     <div className="footer">
-      <div>Actively adding links related to the #DefundThePolice movement</div>
+      <div>Actively updating with resources related to the #DefundThePolice movement</div>
       <div>made with ❤️ by @gracewingo </div>
       <div>
         Want to contribute to the spreadsheet? Please go{" "}

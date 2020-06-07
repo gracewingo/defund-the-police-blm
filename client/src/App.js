@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
-import Footer from './Footer';
+import Footer from "./Footer";
 import Listing from "./Listing";
-import Why from './Why';
+import Why from "./Why";
 import "./App.css";
 import { useFetch } from "./useFetchHook";
 
 const App = () => {
   const { data, loading } = useFetch("/api");
   let states = [];
-
 
   if (data) {
     for (let i = 1; i < data.length; i++) {
@@ -26,7 +25,6 @@ const App = () => {
     for (let j = 1; j < data.length; j++) {
       let link = data[j][2];
       let title = data[j][3];
-
 
       if (states[i] === data[j][1]) {
         if (listingObj[states[i]]) {
@@ -53,8 +51,9 @@ const App = () => {
       </div>
       <div className="Actions">
         <p>
-          In many municipalities, the fiscal year ends on <strong>June 30</strong>. Next year’s
-          budgets are being finalized this month and will take effect in July.{" "}
+          In many municipalities, the fiscal year ends on{" "}
+          <strong>June 30</strong>. Next year’s budgets are being finalized this
+          month and will take effect in July.{" "}
         </p>
         <h3>Here's how you can take action now to reallocate these funds:</h3>
         <ul>
@@ -82,7 +81,7 @@ const App = () => {
           </li>
         </ul>
       </div>
-      {data &&  <Footer listings={data}/>}
+      {data && <Footer listings={data} />}
     </div>
   );
 };
